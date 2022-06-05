@@ -22,7 +22,15 @@ public class Problem2 {
 Arrays.toString(arr));
         double total = 0;
         String totalOutput = "";
-        //TODO add/edit code here
+        //TO DO add/edit code here
+
+	for (int i = 0; i < arr.length; i++)
+        {
+
+           total += arr[i];
+        }
+
+        total = Math.round(total *100.0)/100.0;
        
         //set the double to a string variable
         totalOutput = total+"";
@@ -33,3 +41,4 @@ totalOutput);
     }
     
 }
+

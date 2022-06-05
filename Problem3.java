@@ -20,15 +20,12 @@ public class Problem3 {
     static <T> void bePositive(T[] arr){
         System.out.println("Processing Array:" + 
 Arrays.toString(arr));
-        //your code should set the indexes of this 
-array
+        //your code should set the indexes of this array
         Object[] output = new Object[arr.length];
 
-        //TODO convert each value to positive
-        //set the result to the proper index of 
-the output array
-        //hint: don't forget to handle the data 
-types properly
+        //TO DO convert each value to positive
+        //set the result to the proper index of the output array
+        //hint: don't forget to handle the data types properly
         
         //end edit section
 
@@ -44,3 +41,4 @@ i.getClass().getSimpleName().substring(0,1)));
 sb.toString());
     }
 }
+
