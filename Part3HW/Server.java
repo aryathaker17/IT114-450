@@ -98,5 +98,13 @@ client.getId()));
         server.start(port);
         System.out.println("Server Stopped");
     }
+    double rand=Math.random();
+    String coin="";
+    if(rand < 0.5)
+	    coin="Head";
+    else
+	    coin="Tail";
+	        
+    System.out.println(coin);
 }
 

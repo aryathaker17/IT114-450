@@ -56,8 +56,7 @@ public class ServerThread extends Thread {
             isRunning = true;
             String fromClient;
             while (isRunning && // flag to let us easily control the loop
-                    (fromClient = (String) in.readObject()) != null // reads an object from 
-inputStream (null would
+                    (fromClient = (String) in.readObject()) != null // reads an object from inputStream (null would
                                                                     // likely mean a disconnect)
             ) {
 
