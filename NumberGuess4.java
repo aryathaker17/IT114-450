@@ -14,47 +14,34 @@ public class NumberGuess4 {
     private boolean pickNewRandom = true;
     private Random random = new Random();
     private String fileName = "ng4.txt";
-    private String[] fileHeaders = {"Level", 
-"Strikes", "Number", "MaxLevel"};//used for demo 
-readability
+    private String[] fileHeaders = {"Level", "Strikes", "Number", "MaxLevel"};//used for demo readability
 
     private void saveState(){
-        String[] data = {level+"", strikes+"", 
-number +"", maxLevel+""};
+        String[] data = {level+"", strikes+"", number +"", maxLevel+""};
         String output = String.join(",", data);
-        //Note: we don't need a file reference as 
-FileWriter creates the file if it doesn't exist
-        try (FileWriter fw = new 
-FileWriter(fileName)) {
-			fw.write(String.join(",", 
-fileHeaders));
+        //Note: we don't need a file reference as FileWriter creates the file if it doesn't exist
+        try (FileWriter fw = new FileWriter(fileName)) {
+			fw.write(String.join(",", fileHeaders));
             fw.write("\n");//new line
             fw.write(output);
 		} catch (IOException e) {
-			// TODO Auto-generated 
-catch block
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
     }
     private void loadState(){
         File file = new File(fileName);
 		if (!file.exists()) {
-            //Not providing output here as it's 
-expected for a fresh start
+            //Not providing output here as it's expected for a fresh start
 			return;
 		}
-		try (Scanner reader = new 
-Scanner(file)) {
+		try (Scanner reader = new Scanner(file)) {
             int lineNumber = 0;
-			while 
-(reader.hasNextLine()) {
-				String text = 
-reader.nextLine();
-                //System.out.println("Text: " + 
-text);
+			while (reader.hasNextLine()) {
+				String text = reader.nextLine();
+                //System.out.println("Text: " + text);
                 if(lineNumber == 1){
-                    String[] data = 
-text.split(",");
+                    String[] data = text.split(",");
                     String level = data[0];
                     String strikes = data[1];
                     String number = data[2];
@@ -79,11 +66,9 @@ text.split(",");
                 }
                 lineNumber++;
 			}
-		} catch (FileNotFoundException e) 
-{//specific exception
+		} catch (FileNotFoundException e) {//specific exception
 			e.printStackTrace();
-		} catch (Exception e2) {//any 
-other unhandled exception
+		} catch (Exception e2) {//any other unhandled exception
 			e2.printStackTrace();
 		}
         System.out.println("Loaded state");
@@ -92,18 +77,14 @@ other unhandled exception
     /***
      * Gets a random number between 1 and level.
      * 
-     * @param level (level to use as upper 
-bounds)
+     * @param level (level to use as upper bounds)
      * @return number between bounds
      */
     private void generateNewNumber(int level) {
         int range = 9 + ((level - 1) * 5);
-        System.out.println("Welcome to level " + 
-level);
+        System.out.println("Welcome to level " + level);
         System.out.println(
-                "I picked a random number between 
-1-" + (range + 1) + ", let's see if you can 
-guess.");
+                "I picked a random number between 1-" + (range + 1) + ", let's see if you can guess.");
         number = random.nextInt(range) + 1;
     }
 
@@ -113,12 +94,10 @@ guess.");
         strikes = 0;
     }
 
-    private boolean processCommands(String 
-message) {
+    private boolean processCommands(String message) {
         boolean processed = false;
         if (message.equalsIgnoreCase("quit")) {
-            System.out.println("Tired of playing? 
-No problem, see you next time.");
+            System.out.println("Tired of playing? No problem, see you next time.");
             processed = true;
         }
         //TO DO add other conditions here
@@ -128,10 +107,8 @@ No problem, see you next time.");
     }
 
     private void lose() {
-        System.out.println("Uh oh, looks like you 
-need to get some more practice.");
-        System.out.println("The correct number 
-was " + number);
+        System.out.println("Uh oh, looks like you need to get some more practice.");
+        System.out.println("The correct number was " + number);
         strikes = 0;
         level--;
         if (level < 1) {
@@ -144,8 +121,7 @@ was " + number);
         if (guess < 0) {
             return;
         }
-        System.out.println("You guessed " + 
-guess);
+        System.out.println("You guessed " + guess);
         
         if (guess == number) 
         {
@@ -165,45 +141,35 @@ guess);
         {
             System.out.println("Guess higher");  
         }
-        else if(guess != number && guess > 
-number)
+        else if(guess != number && guess > number)
         {
             System.out.println("Guess lower");
         }
         
-        if(guess != number && guess == number - 5 
-|| guess == number + 5)
+        if(guess != number && guess == number - 5 || guess == number + 5)
         System.out.println("Warm");
-        else if(guess != number && guess == 
-number - 10 || guess == number + 10)
+        else if(guess != number && guess == number - 10 || guess == number + 10)
           System.out.println("Cold");
-        else if(guess != number && guess == 
-number - 2 || guess == number + 2)
+        else if(guess != number && guess == number - 2 || guess == number + 2)
           System.out.println("HOT");
     }
 
     private int strToNum(String message) {
         int guess = -1;
         try {
-            guess = 
-Integer.parseInt(message.trim());
+            guess = Integer.parseInt(message.trim());
         } catch (NumberFormatException e) {
-            System.out.println("You didn't enter 
-a number, please try again");
+            System.out.println("You didn't enter a number, please try again");
         }catch(Exception e2){
-            System.out.println("Null message 
-received");
+            System.out.println("Null message received");
         }
         return guess;
     }
 
     public void start() {
-        try (Scanner input = new 
-Scanner(System.in);) {
-            System.out.println("Welcome to 
-NumberGuesser4.0");
-            System.out.println("To exit, type the 
-word 'quit'.");
+        try (Scanner input = new Scanner(System.in);) {
+            System.out.println("Welcome to NumberGuesser4.0");
+            System.out.println("To exit, type the word 'quit'.");
             loadState();
             do {
                 if (pickNewRandom) {
@@ -211,38 +177,27 @@ word 'quit'.");
                     saveState();
                     pickNewRandom = false;
                 }
-                System.out.println("Type a number 
-and press enter");
-                //we'll want to use a local 
-variable here
-                //so we can feed it into multiple 
-functions
-                String message = 
-input.nextLine();
+                System.out.println("Type a number and press enter");
+                //we'll want to use a local variable here
+                //so we can feed it into multiple functions
+                String message = input.nextLine();
                 // early termination check
                 if (processCommands(message)) {
-                    //command handled; don't 
-proceed with game logic
+                    //command handled; don't proceed with game logic
                     break;
                 }
-                //this is just to demonstrate we 
-can return a value and pass it into another 
-method
+                //this is just to demonstrate we can return a value and pass it into another method
                 int guess = strToNum(message);
                 processGuess(guess);
-                //the following line is the same 
-as the above two lines
-                
-//processGuess(getGuess(message));
+                //the following line is the same as the above two lines
+                //processGuess(getGuess(message));
             } while (true);
         } catch (Exception e) {
-            System.out.println("An unexpected 
-error occurred. Goodbye.");
+            System.out.println("An unexpected error occurred. Goodbye.");
             e.printStackTrace();
             System.out.println(e.getMessage());
         }
-        System.out.println("Thanks for 
-playing!");
+        System.out.println("Thanks for playing!");
     }
 
     public static void main(String[] args) {
@@ -250,4 +205,3 @@ playing!");
         ng.start();
     }
 }
-
