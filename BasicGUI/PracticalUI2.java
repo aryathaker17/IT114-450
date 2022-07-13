@@ -26,10 +26,8 @@ import javax.swing.JTextField;
 import javax.swing.ScrollPaneConstants;
 
 public class PracticalUI2 extends JFrame {
-    CardLayout card = null;// accessible so we can call 
-next() and previous()
-    Container container;// accessible to be passed to card 
-methods
+    CardLayout card = null;// accessible so we can call next() and previous()
+    Container container;// accessible to be passed to card methods
     String originalTitle = null;
 
     public PracticalUI2(String title) {
@@ -67,8 +65,7 @@ e.getComponent().getLocation());
         ceateUserInputScreen();
         createChatScreen();
         // lastly
-        pack();// tells the window to resize itself and do 
-the layout management
+        pack();// tells the window to resize itself and do the layout management
         setVisible(true);
     }
 
@@ -103,8 +100,7 @@ BoxLayout.Y_AXIS));
                 // if valid, next card
 
             } catch (NumberFormatException e) {
-                portError.setText("Invalid port value, must 
-be a number");
+                portError.setText("Invalid port value, must be a number");
                 portError.setVisible(true);
                 isValid = false;
             }
@@ -152,14 +148,12 @@ BoxLayout.Y_AXIS));
             try {
                 username = userValue.getText();
                 if (username.trim().length() == 0) {
-                    userError.setText("Username must be 
-provided");
+                    userError.setText("Username must be provided");
                     userError.setVisible(true);
                     isValid = false;
                 }
             } catch (NullPointerException e) {
-                userError.setText("Username must be 
-provided");
+                userError.setText("Username must be provided");
                 userError.setVisible(true);
                 isValid = false;
             }
@@ -169,8 +163,7 @@ username);
                 userError.setVisible(false);
                 setTitle(originalTitle + " - " + username);
                 card.next(container);
-                System.out.println("Connection process would 
-be triggered");
+                System.out.println("Connection process would be triggered");
             }
         });
         // button holder
@@ -206,8 +199,7 @@ scroll.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEV
         
 scroll.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED);
         scroll.setBorder(BorderFactory.createEmptyBorder());
-        // no need to add content specifically because scroll 
-wraps it
+        // no need to add content specifically because scroll wraps it
         wrapper.add(scroll);
         parent.add(wrapper, BorderLayout.CENTER);
 
@@ -217,8 +209,7 @@ BoxLayout.X_AXIS));
         JTextField textValue = new JTextField();
         input.add(textValue);
         JButton button = new JButton("Send");
-        // lets us submit with the enter key instead of just 
-the button click
+        // lets us submit with the enter key instead of just the button click
         textValue.addKeyListener(new KeyListener() {
 
             @Override
@@ -244,8 +235,7 @@ the button click
                 String text = textValue.getText().trim();
                 if (text.length() > 0) {
                     addText(text, content);
-                    textValue.setText("");// clear the 
-original text
+                    textValue.setText("");// clear the original text
                     // scroll down on new message
                     JScrollBar vertical = 
 scroll.getVerticalScrollBar();
@@ -270,8 +260,7 @@ parent.getSize());
         // add message
         JEditorPane textContainer = new 
 JEditorPane("text/plain", text);
-        // sizes the panel to attempt to take up the width of 
-the container
+        // sizes the panel to attempt to take up the width of the container
         // and expand in height based on word wrapping
         textContainer.setLayout(null);
         textContainer.setPreferredSize(
@@ -280,8 +269,7 @@ calcHeightForText(text, content.getWidth())));
         
 textContainer.setMaximumSize(textContainer.getPreferredSize());
         textContainer.setEditable(false);
-        // remove background and border (comment these out to 
-see what it looks like
+        // remove background and border (comment these out to see what it looks like
         // otherwise)
         textContainer.setOpaque(false);
         
@@ -312,9 +300,7 @@ container.getGraphics().getFontMetrics(container.getFont());
         final int PIXEL_PADDING = 6;
         Dimension size = new Dimension(adv, hgt + 
 PIXEL_PADDING);
-        final float PADDING_PERCENT = 1.1f;
-        // calculate modifier to line wrapping so we can 
-display the wrapped message
+    final float PADDING_PERCENT = 1.1f; // calculate modifier to line wrapping so we can display the wrapped message
         int mult = (int) Math.round(size.width / (width * 
 PADDING_PERCENT));
         // System.out.println(mult);
