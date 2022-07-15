@@ -1,10 +1,10 @@
-package Project;
+package BasicGUI.common;
 import java.io.Serializable;
 public class Payload implements Serializable {
     //read https://www.baeldung.com/java-serial-version-uid
     private static final long serialVersionUID = 1L;//change this if the class changes
     
-    
+
     /**
      * Determines how to process the data on the receiver's side
      */
@@ -50,7 +50,8 @@ public class Payload implements Serializable {
 
     @Override
     public String toString() {
-	return String.format("Type[%s], Number[%s], Message[%s]", getPayloadType().toString(), getNumber(),
+	return String.format("ClientName[%s], Type[%s], Number[%s], Message[%s]",getClientName(), 
+getPayloadType().toString(), getNumber(),
 		getMessage());
     }
 }
