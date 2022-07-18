@@ -7,9 +7,9 @@ import java.net.Socket;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import Module7.Part9.common.Payload;
-import Module7.Part9.common.PayloadType;
-import Module7.Part9.common.RoomResultPayload;
+import Milestone2.Part9.common.Payload;
+import Milestone2.Part9.common.PayloadType;
+import Milestone2.Part9.common.RoomResultPayload;
 
 /**
  * A server-side representation of a single client

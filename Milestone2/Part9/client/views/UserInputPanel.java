@@ -1,4 +1,4 @@
-package Module7.Part9.client.views;
+package Milestone2.Part9.client.views;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -12,8 +12,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import Module7.Part9.client.ICardControls;
-import Module7.Part9.client.Card;
+import Milestone2.Part9.client.ICardControls;
+import Milestone2.Part9.client.Card;
 
 public class UserInputPanel extends JPanel{
     private static Logger logger = Logger.getLogger(UserInputPanel.class.getName()); 

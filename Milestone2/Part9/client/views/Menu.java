@@ -1,11 +1,11 @@
-package Module7.Part9.client.views;
+package Milestone2.Part9.client.views;
 
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 
-import Module7.Part9.client.Card;
-import Module7.Part9.client.ICardControls;
+import Milestone2.Part9.client.Card;
+import Milestone2.Part9.client.ICardControls;
 
 public class Menu extends JMenuBar{
     public Menu(ICardControls controls){

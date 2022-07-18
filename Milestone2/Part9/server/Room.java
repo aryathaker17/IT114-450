@@ -6,6 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.*;
 
 import Milestone2.Part9.common.Constants;
 
@@ -20,6 +21,8 @@ public class Room implements AutoCloseable {
 	private final static String DISCONNECT = "disconnect";
 	private final static String LOGOUT = "logout";
 	private final static String LOGOFF = "logoff";
+	private final static String FLIP = "flip";
+	private final static String ROLL = "roll";
 	private static Logger logger = Logger.getLogger(Room.class.getName());
 
 	public Room(String name) {
@@ -105,6 +108,14 @@ public class Room implements AutoCloseable {
 						roomName = comm2[1];
 						Room.joinRoom(roomName, client);
 						break;
+					case FLIP:
+						String coinFlip = Room.flip();
+						sendMessage(client, coinFlip);
+						break;
+					case ROLL:
+						String number = Room.roll();
+						sendMessage(client, number);
+						break;
 					case DISCONNECT:
 					case LOGOUT:
 					case LOGOFF:
@@ -142,6 +153,34 @@ public class Room implements AutoCloseable {
 			client.sendMessage(Constants.DEFAULT_CLIENT_ID, String.format("Room %s doesn't exist", roomName));
 			client.sendRoomsList(null, String.format("Room %s doesn't exist", roomName));
 		}
+	}
+
+	
+
+	public static String flip() {
+        Random rand = new Random();
+		String sideUp;
+        int sideup = rand.nextInt();
+        if (sideup == 0) {
+            sideUp = "heads";
+        } else {
+            sideUp = "tails";
+		}
+
+		return sideUp;
+	}
+
+	public static String roll(){
+		Random rand = new Random();
+		int random = rand.nextInt(10) + 1;
+		for (int i = 0; i < 10; i++) {
+            System.out.println(random);
+
+		}
+		String number = " " + random;
+		
+		return number;
+		
 	}
 
 	protected static void disconnectClient(ServerThread client, Room room) {
@@ -184,6 +223,7 @@ public class Room implements AutoCloseable {
 	protected synchronized void sendUserListToClient(ServerThread receiver) {
 		logger.log(Level.INFO, String.format("Room[%s] Syncing client list of %s to %s", getName(), clients.size(),
 				receiver.getClientName()));
+		
 		synchronized (clients) {
 			Iterator<ServerThread> iter = clients.iterator();
 			while (iter.hasNext()) {
@@ -245,4 +285,8 @@ public class Room implements AutoCloseable {
 		isRunning = false;
 		clients = null;
 	}
+	
 }
+
+
+

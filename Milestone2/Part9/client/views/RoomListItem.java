@@ -1,4 +1,4 @@
-package Module7.Part9.client.views;
+package Milestone2.Part9.client.views;
 
 import java.util.function.Consumer;
 
