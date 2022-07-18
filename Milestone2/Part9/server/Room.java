@@ -160,7 +160,7 @@ public class Room implements AutoCloseable {
 	public static String flip() {
         Random rand = new Random();
 		String sideUp;
-        int sideup = rand.nextInt();
+        int sideup = rand.nextInt(2);
         if (sideup == 0) {
             sideUp = "heads";
         } else {
