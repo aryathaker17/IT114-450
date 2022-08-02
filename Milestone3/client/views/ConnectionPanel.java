@@ -1,4 +1,4 @@
-package Milestone3.Part9.client.views;
+package Milestone3.client.views;
 
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
@@ -6,8 +6,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import Milestone3.Part9.client.Card;
-import Milestone3.Part9.client.ICardControls;
+import Milestone3.client.Card;
+import Milestone3.client.ICardControls;
 
 import java.awt.BorderLayout;
 

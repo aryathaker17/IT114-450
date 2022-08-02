@@ -1,4 +1,4 @@
-package Milestone3.Part9.server;
+package Milestone3.server;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -7,9 +7,9 @@ import java.net.Socket;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import Milestone3.Part9.common.Payload;
-import Milestone3.Part9.common.PayloadType;
-import Milestone3.Part9.common.RoomResultPayload;
+import Milestone3.common.Payload;
+import Milestone3.common.PayloadType;
+import Milestone3.common.RoomResultPayload;
 
 /**
  * A server-side representation of a single client
@@ -24,11 +24,10 @@ public class ServerThread extends Thread {
     private Room currentRoom;
     private static Logger logger = Logger.getLogger(ServerThread.class.getName());
     private long myId;
-    private String username;
 
     public String getUsername()
     {
-        return username;
+        return clientName;
     }
 
     public void setClientId(long id) {

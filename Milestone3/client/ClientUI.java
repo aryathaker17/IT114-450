@@ -1,4 +1,4 @@
-package Milestone3.Part9.client;
+package Milestone3.client;
 
 import java.awt.CardLayout;
 import java.awt.Component;
@@ -18,12 +18,12 @@ import javax.swing.JMenuBar;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-import Milestone3.Part9.client.views.ChatPanel;
-import Milestone3.Part9.client.views.ConnectionPanel;
-import Milestone3.Part9.client.views.Menu;
-import Milestone3.Part9.client.views.RoomsPanel;
-import Milestone3.Part9.client.views.UserInputPanel;
-import Milestone3.Part9.common.Constants;
+import Milestone3.client.views.ChatPanel;
+import Milestone3.client.views.ConnectionPanel;
+import Milestone3.client.views.Menu;
+import Milestone3.client.views.RoomsPanel;
+import Milestone3.client.views.UserInputPanel;
+import Milestone3.common.Constants;
 
 public class ClientUI extends JFrame implements IClientEvents, ICardControls {
     CardLayout card = null;// accessible so we can call next() and previous()

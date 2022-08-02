@@ -1,4 +1,4 @@
-package Milestone3.Part9.server;
+package Milestone3.server;
 
 import java.io.IOException;
 import java.net.ServerSocket;

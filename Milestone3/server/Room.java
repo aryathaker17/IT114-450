@@ -1,4 +1,4 @@
-package Milestone3.Part9.server;
+package Milestone3.server;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,8 +7,7 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import Milestone3.Part9.common.Constants;
-import java.lang.annotation.Target;
+import Milestone3.common.Constants;
 import java.util.*;
 
 public class Room implements AutoCloseable {
@@ -25,7 +24,7 @@ public class Room implements AutoCloseable {
 	private final static String FLIP = "flip";
 	private final static String ROLL = "roll";
 	private final static String COMMAND_TRIGGER2 = "@";
-	
+
 	private static Logger logger = Logger.getLogger(Room.class.getName());
 
 	public Room(String name) {
@@ -128,33 +127,28 @@ public class Room implements AutoCloseable {
 						wasCommand = false;
 						break;
 				}
-			}
-			else if (message.startsWith(COMMAND_TRIGGER2))
-			{
+			} else if (message.startsWith(COMMAND_TRIGGER2)) {
 				String[] comm = message.split(COMMAND_TRIGGER2);
-				String part2 =  comm[1];
+				String part2 = comm[1];
 				String[] comm1 = part2.split(" ");
 				String username = comm1[0];
+				logger.log(Level.INFO, "Whispered username: " + username);
 				wasCommand = true;
 				synchronized (clients) {
 					Iterator<ServerThread> iter = clients.iterator();
 					while (iter.hasNext()) {
 						ServerThread target = iter.next();
-						boolean messageSent = target.sendMessage(client.getClientId(), message);
-						if (!messageSent) {
-							handleDisconnect(iter, client);
-						}
-						if(username.equals(target.getUsername()))
-				{
-					boolean messagesend = target.sendMessage(target.getClientId(), message);
-					if (!messagesend) {
-						handleDisconnect(iter, client);
-				}
+						logger.log(Level.INFO, "Checking against username: " + target.getUsername());
+						if (username.equals(target.getUsername())) {
+							boolean messagesend = target.sendMessage(target.getClientId(), message);
+							if (!messagesend) {
+								handleDisconnect(iter, client);
+							}
 
-				}
+						}
 					}
 				}
-				
+
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -166,7 +160,8 @@ public class Room implements AutoCloseable {
 
 	protected static void getRooms(String query, ServerThread client) {
 		String[] rooms = Server.INSTANCE.getRooms(query).toArray(new String[0]);
-		client.sendRoomsList(rooms,(rooms!=null&&rooms.length==0)?"No rooms found containing your query string":null);
+		client.sendRoomsList(rooms,
+				(rooms != null && rooms.length == 0) ? "No rooms found containing your query string" : null);
 	}
 
 	protected static void createRoom(String roomName, ServerThread client) {
@@ -185,32 +180,30 @@ public class Room implements AutoCloseable {
 		}
 	}
 
-
-	
 	public static String flip() {
-        Random rand = new Random();
+		Random rand = new Random();
 		String sideUp;
-        int sideup = rand.nextInt(2);
-        if (sideup == 0) {
-            sideUp = "heads";
-        } else {
-            sideUp = "tails";
+		int sideup = rand.nextInt(2);
+		if (sideup == 0) {
+			sideUp = "heads";
+		} else {
+			sideUp = "tails";
 		}
 
 		return sideUp;
 	}
 
-	public static String roll(){
+	public static String roll() {
 		Random rand = new Random();
 		int random = rand.nextInt(10) + 1;
 		for (int i = 0; i < 10; i++) {
-            System.out.println(random);
+			System.out.println(random);
 
 		}
 		String number = " " + random;
-		
+
 		return number;
-		
+
 	}
 
 	protected static void disconnectClient(ServerThread client, Room room) {
@@ -253,7 +246,7 @@ public class Room implements AutoCloseable {
 	protected synchronized void sendUserListToClient(ServerThread receiver) {
 		logger.log(Level.INFO, String.format("Room[%s] Syncing client list of %s to %s", getName(), clients.size(),
 				receiver.getClientName()));
-		
+
 		synchronized (clients) {
 			Iterator<ServerThread> iter = clients.iterator();
 			while (iter.hasNext()) {
@@ -315,8 +308,5 @@ public class Room implements AutoCloseable {
 		isRunning = false;
 		clients = null;
 	}
-	
+
 }
-
-
-

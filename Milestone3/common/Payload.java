@@ -1,4 +1,4 @@
-package Milestone3.Part9.common;
+package Milestone3.common;
 
 import java.io.Serializable;
 

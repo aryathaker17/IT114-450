@@ -1,4 +1,4 @@
-package Milestone3.Part9.client;
+package Milestone3.client;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -8,9 +8,9 @@ import java.net.UnknownHostException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import Milestone3.Part9.common.Payload;
-import Milestone3.Part9.common.PayloadType;
-import Milestone3.Part9.common.RoomResultPayload;
+import Milestone3.common.Payload;
+import Milestone3.common.PayloadType;
+import Milestone3.common.RoomResultPayload;
 
 //Enum Singleton: https://www.geeksforgeeks.org/advantages-and-disadvantages-of-using-enum-as-singleton-in-java/
 public enum Client {

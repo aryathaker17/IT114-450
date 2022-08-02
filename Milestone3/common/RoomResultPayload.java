@@ -1,4 +1,4 @@
-package Milestone3.Part9.common;
+package Milestone3.common;
 
 /**
  * Created so we don't need to modify the base payload
