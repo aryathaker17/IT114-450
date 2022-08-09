@@ -1,0 +1,70 @@
+Aug 08, 2022 9:17:23 PM Project.common.MyLogger info
+INFO: Project.client.Client: Client connected
+Aug 08, 2022 9:17:23 PM Project.common.MyLogger info
+INFO: Project.client.Client: Listening for server messages
+Aug 08, 2022 9:17:23 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[Tom], Type[CONNECT], Number[0], Message[null]
+Aug 08, 2022 9:17:23 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#e7af61">Tom</font> (3)
+Aug 08, 2022 9:17:23 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 08, 2022 9:17:24 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#54a7ab">Arya</font> (1)
+Aug 08, 2022 9:17:24 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 08, 2022 9:17:24 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#cfd3de">John</font> (2)
+Aug 08, 2022 9:17:24 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 08, 2022 9:17:39 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=548,height=311]
+Aug 08, 2022 9:17:39 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=419,height=311]
+Aug 08, 2022 9:17:39 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=469,height=311]
+Aug 08, 2022 9:17:39 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=480,height=311]
+Aug 08, 2022 9:17:40 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=505,height=311]
+Aug 08, 2022 9:17:40 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=514,height=311]
+Aug 08, 2022 9:17:40 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=520,height=311]
+Aug 08, 2022 9:17:40 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=526,height=311]
+Aug 08, 2022 9:19:44 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: removing user list item for id 1
+Aug 08, 2022 9:20:07 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[null], Type[GET_ROOMS], Number[0], Message[pri]
+Aug 08, 2022 9:20:13 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[null], Type[JOIN_ROOM], Number[0], Message[Private room 1]
+Aug 08, 2022 9:20:13 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#f6ea54">Tom</font> (3)
+Aug 08, 2022 9:20:13 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=157,height=307]
+Aug 08, 2022 9:20:13 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#8bbd92">Arya</font> (1)
+Aug 08, 2022 9:20:13 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=157,height=307]
+Aug 08, 2022 9:20:48 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[Tom], Type[MESSAGE], Number[0], Message[Hi]
+Aug 08, 2022 9:21:02 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: removing user list item for id 1
+Aug 08, 2022 9:21:29 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[null], Type[GET_ROOMS], Number[0], Message[Lobby]
+Aug 08, 2022 9:21:30 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[null], Type[JOIN_ROOM], Number[0], Message[Lobby]
+Aug 08, 2022 9:21:30 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#87975c">Tom</font> (3)
+Aug 08, 2022 9:21:30 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=157,height=307]
+Aug 08, 2022 9:21:30 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#cfd3de">John</font> (2)
+Aug 08, 2022 9:21:30 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=157,height=307]
+Aug 08, 2022 9:21:30 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#c755b8">Arya</font> (1)
+Aug 08, 2022 9:21:30 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=157,height=307]
+Aug 08, 2022 9:25:03 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[Tom], Type[MESSAGE], Number[0], Message[I pick 5]
