@@ -1,0 +1,64 @@
+Aug 08, 2022 8:14:16 PM Project.common.MyLogger info
+INFO: Project.client.Client: Client connected
+Aug 08, 2022 8:14:16 PM Project.common.MyLogger info
+INFO: Project.client.Client: Listening for server messages
+Aug 08, 2022 8:14:16 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[A], Type[CONNECT], Number[0], Message[null]
+Aug 08, 2022 8:14:16 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#66dcaf">A</font> (2)
+Aug 08, 2022 8:14:16 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 08, 2022 8:14:16 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#e3c970">Jon</font> (1)
+Aug 08, 2022 8:14:16 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 08, 2022 8:14:20 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#738d5d">B</font> (3)
+Aug 08, 2022 8:14:20 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 08, 2022 8:14:26 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=637,height=311]
+Aug 08, 2022 8:14:26 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=456,height=311]
+Aug 08, 2022 8:14:26 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=527,height=311]
+Aug 08, 2022 8:14:26 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=514,height=311]
+Aug 08, 2022 8:14:26 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=521,height=311]
+Aug 08, 2022 8:14:26 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=528,height=311]
+Aug 08, 2022 8:14:26 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=535,height=311]
+Aug 08, 2022 8:14:26 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=542,height=311]
+Aug 08, 2022 8:14:26 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=549,height=311]
+Aug 08, 2022 8:14:26 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=555,height=311]
+Aug 08, 2022 8:14:26 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=563,height=311]
+Aug 08, 2022 8:14:26 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=569,height=311]
+Aug 08, 2022 8:14:27 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=574,height=311]
+Aug 08, 2022 8:14:27 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=580,height=311]
+Aug 08, 2022 8:14:27 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=588,height=311]
+Aug 08, 2022 8:14:27 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=593,height=311]
+Aug 08, 2022 8:14:27 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=599,height=311]
+Aug 08, 2022 8:14:27 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=604,height=311]
+Aug 08, 2022 8:40:17 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=569,height=311]
+Aug 08, 2022 8:40:17 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=580,height=311]
+Aug 08, 2022 8:40:17 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=574,height=311]
+Aug 08, 2022 8:40:17 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=569,height=311]
+Aug 08, 2022 8:40:17 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=563,height=311]
