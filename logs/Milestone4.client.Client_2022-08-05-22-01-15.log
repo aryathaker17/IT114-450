@@ -1,0 +1,8 @@
+Aug 05, 2022 10:01:15 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Client connected
+Aug 05, 2022 10:01:15 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Listening for server messages
+Aug 05, 2022 10:01:15 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Sent Payload: ClientId[0], ClientName[Arya], Type[CONNECT], Number[0], Message[null]
+Aug 05, 2022 10:01:27 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Sent Payload: ClientId[0], ClientName[Arya], Type[MESSAGE], Number[0], Message[Hello]

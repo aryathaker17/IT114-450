@@ -1,0 +1,18 @@
+Aug 08, 2022 4:34:24 PM Project.common.MyLogger info
+INFO: Project.client.Client: Client connected
+Aug 08, 2022 4:34:24 PM Project.common.MyLogger info
+INFO: Project.client.Client: Listening for server messages
+Aug 08, 2022 4:34:24 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[Arya], Type[CONNECT], Number[0], Message[null]
+Aug 08, 2022 4:34:24 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#da7269">Arya</font> (1)
+Aug 08, 2022 4:34:24 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 08, 2022 4:34:27 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#75ee5f">Jon</font> (2)
+Aug 08, 2022 4:34:27 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 08, 2022 4:34:32 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[Arya], Type[MESSAGE], Number[0], Message[Hi whats up]
+Aug 08, 2022 4:35:38 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[null], Type[DISCONNECT], Number[0], Message[null]

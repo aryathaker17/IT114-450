@@ -1,0 +1,32 @@
+Aug 07, 2022 6:35:50 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Client connected
+Aug 07, 2022 6:35:50 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Listening for server messages
+Aug 07, 2022 6:35:50 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Sent Payload: ClientId[0], ClientName[A], Type[CONNECT], Number[0], Message[null]
+Aug 07, 2022 6:35:50 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Adding user to list: <font color="#886ea3">A</font> (1)
+Aug 07, 2022 6:35:50 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 07, 2022 6:35:53 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Adding user to list: <font color="#d2b17b">B</font> (2)
+Aug 07, 2022 6:35:53 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 07, 2022 6:35:58 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: removing user list item for id 2
+Aug 07, 2022 6:35:58 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Adding user to list: <font color="#8fa1d6">C</font> (3)
+Aug 07, 2022 6:35:58 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 07, 2022 6:36:16 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Sent Payload: ClientId[0], ClientName[A], Type[MESSAGE], Number[0], Message[hi]
+Aug 07, 2022 6:36:16 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: removing user list item for id 3
+Aug 07, 2022 6:36:17 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Sent Payload: ClientId[0], ClientName[A], Type[MESSAGE], Number[0], Message[hi]
+Aug 07, 2022 6:36:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Sent Payload: ClientId[0], ClientName[A], Type[MESSAGE], Number[0], Message[**B**]
+Aug 07, 2022 6:36:25 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Sent Payload: ClientId[0], ClientName[null], Type[DISCONNECT], Number[0], Message[null]
+Aug 07, 2022 6:36:25 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: removing user list item for id 1

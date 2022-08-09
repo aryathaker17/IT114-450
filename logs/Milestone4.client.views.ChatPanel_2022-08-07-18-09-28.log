@@ -1,0 +1,62 @@
+Aug 07, 2022 6:10:12 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Client connected
+Aug 07, 2022 6:10:12 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Listening for server messages
+Aug 07, 2022 6:10:12 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Sent Payload: ClientId[0], ClientName[3], Type[CONNECT], Number[0], Message[null]
+Aug 07, 2022 6:10:12 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Adding user to list: <font color="#bbb989">3</font> (3)
+Aug 07, 2022 6:10:12 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 07, 2022 6:10:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=410,height=311]
+Aug 07, 2022 6:10:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=290,height=311]
+Aug 07, 2022 6:10:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=357,height=311]
+Aug 07, 2022 6:10:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=400,height=311]
+Aug 07, 2022 6:10:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=457,height=311]
+Aug 07, 2022 6:10:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=451,height=311]
+Aug 07, 2022 6:10:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=487,height=311]
+Aug 07, 2022 6:10:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=497,height=311]
+Aug 07, 2022 6:10:44 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=494,height=336]
+Aug 07, 2022 6:10:44 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=495,height=357]
+Aug 07, 2022 6:10:44 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=495,height=385]
+Aug 07, 2022 6:10:44 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=495,height=435]
+Aug 07, 2022 6:10:44 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=495,height=474]
+Aug 07, 2022 6:10:44 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=495,height=496]
+Aug 07, 2022 6:10:44 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=495,height=534]
+Aug 07, 2022 6:10:44 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=495,height=561]
+Aug 07, 2022 6:10:44 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=495,height=581]
+Aug 07, 2022 6:10:44 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=495,height=594]
+Aug 07, 2022 6:10:44 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=495,height=606]
+Aug 07, 2022 6:10:44 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=495,height=612]
+Aug 07, 2022 6:10:44 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=495,height=619]
+Aug 07, 2022 6:10:45 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=495,height=624]
+Aug 07, 2022 6:10:45 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=495,height=629]
+Aug 07, 2022 6:10:45 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=495,height=634]
+Aug 07, 2022 6:10:45 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=495,height=641]
+Aug 07, 2022 6:10:45 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=495,height=647]

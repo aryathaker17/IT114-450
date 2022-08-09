@@ -1,0 +1,64 @@
+Aug 07, 2022 6:33:11 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Client connected
+Aug 07, 2022 6:33:11 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Listening for server messages
+Aug 07, 2022 6:33:11 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Sent Payload: ClientId[0], ClientName[A], Type[CONNECT], Number[0], Message[null]
+Aug 07, 2022 6:33:11 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Adding user to list: <font color="#a9bce7">A</font> (1)
+Aug 07, 2022 6:33:11 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 07, 2022 6:33:15 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Adding user to list: <font color="#f4f19d">B</font> (2)
+Aug 07, 2022 6:33:15 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 07, 2022 6:33:21 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=422,height=311]
+Aug 07, 2022 6:33:21 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=363,height=311]
+Aug 07, 2022 6:33:21 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=429,height=311]
+Aug 07, 2022 6:33:21 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=409,height=311]
+Aug 07, 2022 6:33:21 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=454,height=311]
+Aug 07, 2022 6:33:21 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=449,height=311]
+Aug 07, 2022 6:33:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=437,height=311]
+Aug 07, 2022 6:33:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=431,height=311]
+Aug 07, 2022 6:33:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=412,height=311]
+Aug 07, 2022 6:33:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=418,height=311]
+Aug 07, 2022 6:33:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=370,height=311]
+Aug 07, 2022 6:33:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=375,height=311]
+Aug 07, 2022 6:33:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=351,height=311]
+Aug 07, 2022 6:33:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=342,height=311]
+Aug 07, 2022 6:33:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=335,height=311]
+Aug 07, 2022 6:33:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=329,height=311]
+Aug 07, 2022 6:33:22 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=322,height=311]
+Aug 07, 2022 6:33:29 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: removing user list item for id 2
+Aug 07, 2022 6:33:29 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Adding user to list: <font color="#8febe5">C</font> (3)
+Aug 07, 2022 6:33:29 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Userlist: java.awt.Dimension[width=99,height=307]
+Aug 07, 2022 6:33:32 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Sent Payload: ClientId[0], ClientName[A], Type[MESSAGE], Number[0], Message[Hi]
+Aug 07, 2022 6:33:32 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: removing user list item for id 3
+Aug 07, 2022 6:33:34 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Sent Payload: ClientId[0], ClientName[A], Type[MESSAGE], Number[0], Message[Hi]
+Aug 07, 2022 6:33:52 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Sent Payload: ClientId[0], ClientName[null], Type[DISCONNECT], Number[0], Message[null]
+Aug 07, 2022 6:33:52 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: removing user list item for id 1

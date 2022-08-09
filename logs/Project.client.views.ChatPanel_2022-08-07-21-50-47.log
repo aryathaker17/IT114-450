@@ -1,0 +1,34 @@
+Aug 07, 2022 9:51:10 PM Project.common.MyLogger info
+INFO: Project.client.Client: Client connected
+Aug 07, 2022 9:51:10 PM Project.common.MyLogger info
+INFO: Project.client.Client: Listening for server messages
+Aug 07, 2022 9:51:10 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[B], Type[CONNECT], Number[0], Message[null]
+Aug 07, 2022 9:51:10 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#c5b0a3">B</font> (2)
+Aug 07, 2022 9:51:10 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 07, 2022 9:51:10 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#a39367">A</font> (1)
+Aug 07, 2022 9:51:10 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 07, 2022 9:51:15 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#a0dcdd">C</font> (3)
+Aug 07, 2022 9:51:15 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 07, 2022 9:51:49 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=397,height=311]
+Aug 07, 2022 9:51:49 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=295,height=311]
+Aug 07, 2022 9:51:49 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=330,height=311]
+Aug 07, 2022 9:51:49 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=343,height=311]
+Aug 07, 2022 9:51:49 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=358,height=311]
+Aug 07, 2022 9:52:29 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: removing user list item for id 1
+Aug 07, 2022 9:52:38 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[null], Type[DISCONNECT], Number[0], Message[null]
+Aug 07, 2022 9:52:38 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: removing user list item for id 2
