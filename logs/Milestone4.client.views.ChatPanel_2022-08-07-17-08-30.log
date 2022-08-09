@@ -1,0 +1,28 @@
+Aug 07, 2022 5:08:42 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Client connected
+Aug 07, 2022 5:08:42 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Listening for server messages
+Aug 07, 2022 5:08:42 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Sent Payload: ClientId[0], ClientName[Arya], Type[CONNECT], Number[0], Message[null]
+Aug 07, 2022 5:08:43 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Adding user to list: <font color="#98858a">Arya</font> (1)
+Aug 07, 2022 5:08:43 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 07, 2022 5:08:46 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Adding user to list: <font color="#8f8c74">Matt</font> (2)
+Aug 07, 2022 5:08:46 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 07, 2022 5:08:52 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: removing user list item for id 2
+Aug 07, 2022 5:08:52 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Adding user to list: <font color="#7dfa9f">Tom</font> (3)
+Aug 07, 2022 5:08:52 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 07, 2022 5:08:54 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Sent Payload: ClientId[0], ClientName[Arya], Type[MESSAGE], Number[0], Message[Hi]
+Aug 07, 2022 5:09:20 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Sent Payload: ClientId[0], ClientName[Arya], Type[MESSAGE], Number[0], Message[lo]
+Aug 07, 2022 5:09:24 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Sent Payload: ClientId[0], ClientName[null], Type[DISCONNECT], Number[0], Message[null]
+Aug 07, 2022 5:09:24 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: removing user list item for id 1

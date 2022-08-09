@@ -1,0 +1,26 @@
+Aug 08, 2022 7:57:04 PM Project.common.MyLogger info
+INFO: Project.client.Client: Client connected
+Aug 08, 2022 7:57:04 PM Project.common.MyLogger info
+INFO: Project.client.Client: Listening for server messages
+Aug 08, 2022 7:57:04 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[Jon], Type[CONNECT], Number[0], Message[null]
+Aug 08, 2022 7:57:04 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#67f4eb">Jon</font> (2)
+Aug 08, 2022 7:57:04 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 08, 2022 7:57:04 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#c3bb61">Arya</font> (1)
+Aug 08, 2022 7:57:04 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
+Aug 08, 2022 7:57:06 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=410,height=311]
+Aug 08, 2022 7:57:06 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=290,height=311]
+Aug 08, 2022 7:57:06 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=376,height=311]
+Aug 08, 2022 7:57:06 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=381,height=311]
+Aug 08, 2022 7:57:06 PM Project.common.MyLogger info
+INFO: Project.client.views.ChatPanel: Wrapper size: java.awt.Dimension[width=386,height=311]
+Aug 08, 2022 7:57:12 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[null], Type[DISCONNECT], Number[0], Message[null]

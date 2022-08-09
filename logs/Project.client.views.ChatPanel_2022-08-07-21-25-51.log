@@ -1,0 +1,10 @@
+Aug 07, 2022 9:27:09 PM Project.common.MyLogger info
+INFO: Project.client.Client: Client connected
+Aug 07, 2022 9:27:09 PM Project.common.MyLogger info
+INFO: Project.client.Client: Listening for server messages
+Aug 07, 2022 9:27:09 PM Project.common.MyLogger info
+INFO: Project.client.Client: Sent Payload: ClientId[0], ClientName[B], Type[CONNECT], Number[0], Message[null]
+Aug 07, 2022 9:27:09 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Adding user to list: <font color="#ce5ea0">B</font> (2)
+Aug 07, 2022 9:27:09 PM Project.common.MyLogger info
+INFO: Project.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]

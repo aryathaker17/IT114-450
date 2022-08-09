@@ -1,0 +1,10 @@
+Aug 07, 2022 4:57:52 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Client connected
+Aug 07, 2022 4:57:52 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Listening for server messages
+Aug 07, 2022 4:57:52 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.Client: Sent Payload: ClientId[0], ClientName[Matt], Type[CONNECT], Number[0], Message[null]
+Aug 07, 2022 4:57:52 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Adding user to list: <font color="#935a6e">Matt</font> (3)
+Aug 07, 2022 4:57:52 PM Milestone4.common.MyLogger info
+INFO: Milestone4.client.views.UserListPanel: Userlist: java.awt.Dimension[width=0,height=307]
